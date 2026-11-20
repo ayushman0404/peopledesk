@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20342e" />
+    <title>PeopleDesk | People operations</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/company.css" />
+    <link rel="stylesheet" href="/copilot.css" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script src="/app.js" defer></script>
+    <script src="/messages.js" defer></script>
+    <script src="/company.js" defer></script>
+    <script src="/copilot.js" defer></script>
+  </head>
+  <body>
+    <div id="workspace" aria-live="off">
+      <main class="loading">Opening PeopleDesk…</main>
+    </div>
+    <dialog id="modal"><div id="modal-body"></div></dialog>
+    <aside id="assistant" aria-label="Company assistant" hidden></aside>
+    <div id="toast" role="status"></div>
+  </body>
+</html>

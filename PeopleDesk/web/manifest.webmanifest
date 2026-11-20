@@ -1,0 +1,18 @@
+{
+  "id": "/employee",
+  "name": "PeopleDesk — My workspace",
+  "short_name": "PeopleDesk",
+  "start_url": "/employee",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f6f1",
+  "theme_color": "#20352e",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

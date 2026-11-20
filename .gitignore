@@ -1,0 +1,42 @@
+# Credentials and company data
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+token*.json
+secrets/
+data/
+backups/
+# Python and builds
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+# Downloaded runtime and releases
+Handoff-Studio/engine/
+*.exe
+*.dll
+*.gguf
+*.zip
+*.part
+*.partial
+# Local tools and test artifacts
+node_modules/
+tests/*.png
+tests/*.webm
+test-results/
+playwright-report/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
